@@ -1,12 +1,3 @@
-1 - Servidor EC2 na AWS
-	 Red Hat Enterprise Linux release 9.2
-
-2 – Instalação do pacotes
-	Comando: # dnf -y install zlib-devel pam-devel openssl-devel libtool bison flex autoconf gcc make git net-tools lsof net-tools
-
-3 – Criar usuário prometheus
-	 Comando: # useradd -m -s /bin/false prometheus
-
 # Nome do Workflow
 name: DevOpsLab Pipeline
 
